@@ -9,7 +9,7 @@ const FormLogin = () => {
   
     return (
         <View style={styles.container}>
-          <TitleLogin />
+          <TitleLogin title='LOGIN'/>
           <InputsLogin />
           <OthersLoginButtons />
        </View>
